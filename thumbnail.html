@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+  html,body{margin:0;padding:0}
+  *{box-sizing:border-box}
+  .card{position:relative;width:560px;height:280px;overflow:hidden;
+    background:radial-gradient(120% 140% at 0% 0%, #1b2350 0%, #0a1128 55%, #070b1c 100%);
+    font-family:-apple-system,'Segoe UI',Roboto,sans-serif;color:#fafaf9}
+  .glow{position:absolute;width:300px;height:300px;border-radius:50%;
+    background:radial-gradient(circle,#8b5cf655 0%,transparent 70%);top:-90px;right:-70px}
+  .glow2{position:absolute;width:260px;height:260px;border-radius:50%;
+    background:radial-gradient(circle,#06b6d433 0%,transparent 70%);bottom:-110px;left:-60px}
+  .pad{position:relative;padding:30px 34px;height:100%;display:flex;flex-direction:column;justify-content:space-between}
+  .kicker{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#fbbf24}
+  .mag{font-size:30px;line-height:1}
+  .title{font-family:Georgia,'Times New Roman',serif;font-weight:800;font-size:42px;line-height:1.05;margin:6px 0 0;letter-spacing:-.01em}
+  .title .g{background:linear-gradient(90deg,#a78bfa,#06b6d4);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:17px;color:#cbd5e1;margin-top:10px;max-width:430px;line-height:1.4}
+  .chips{display:flex;gap:9px;margin-top:4px}
+  .chip{font-size:12px;font-weight:600;color:#e2e8f0;background:#141a33;border:1px solid #2a335a;
+    border-radius:999px;padding:6px 12px}
+  .chip b{color:#a78bfa}
+  .foot{display:flex;align-items:center;justify-content:space-between}
+  .track{font-size:12.5px;color:#94a3b8}
+  .brand{font-size:12.5px;font-weight:700;color:#fafaf9}
+  .brand span{color:#fbbf24}
+</style></head><body>
+<div class="card">
+  <div class="glow"></div><div class="glow2"></div>
+  <div class="pad">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="mag">🔎</span>
+        <span class="kicker">Kaggle · Vibe Coding Capstone</span>
+      </div>
+      <h1 class="title">Cited Research <span class="g">Assistant</span></h1>
+      <p class="sub">An AI agent that searches the web and answers with real, clickable citations.</p>
+    </div>
+    <div class="chips">
+      <span class="chip"><b>web_search</b> tool</span>
+      <span class="chip">autonomous loop</span>
+      <span class="chip">cites <b>[1] [2]</b> sources</span>
+    </div>
+    <div class="foot">
+      <span class="track">Freestyle track · Gemini function-calling</span>
+      <span class="brand">vibe<span>·</span>coded</span>
+    </div>
+  </div>
+</div>
+</body></html>

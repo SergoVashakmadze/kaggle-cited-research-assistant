@@ -1,0 +1,5 @@
+file 'shot1.mp3'
+file 'shot2.mp3'
+file 'shot3.mp3'
+file 'shot4.mp3'
+file 'shot5.mp3'
